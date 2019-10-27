@@ -1,0 +1,277 @@
+/*
+Theme Name: DongDuoc
+Author: caobo171
+AuthorURI: https://facebook.com/caobo171
+Description: The clone theme by caobo171
+Version: 1.0
+*/
+
+
+#banner{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:green;
+}
+
+.nav-item{
+    font-weight: 900;
+}
+.navbar{
+    background-color: rgb(9, 196, 9);
+}
+
+.navbar-nav{
+    width: 80%;
+    justify-content: space-between;
+} 
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    justify-content: space-around;
+    padding: 0px 40px 0px 40px
+  }
+
+.form-control[type=search]{
+    height: 28px;
+}
+
+
+
+.section-header{
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 800;
+}
+
+.section{
+    margin-top: 80px;
+    flex-direction: column;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    align-items: center;
+}
+
+.product-item{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-name{
+    font-weight: 800;
+    color: green;
+    margin-top: 10px;
+}
+.product-image{
+    border-width:1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    background-size:cover;
+    height: 240px;
+}
+.product-description{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.product-price{
+    color: red;
+}
+
+.product-row{
+   margin: auto;
+   width:90%;
+}
+
+/* override boostrap */
+
+.page-item{
+    margin: 2px;
+    font-weight: 600;
+    color: green;
+    border-width: 2px;
+    border-color: green;
+    border-style: solid;
+}
+
+.page-link{
+    color: green;
+    outline-width: 0;
+}
+/**/
+
+
+
+
+.post-item{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.post-name{
+    font-weight: 800;
+    margin-top: 10px;
+}
+.post-image{
+    border-width:1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    background-size:cover
+}
+.post-description{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.post-more{
+    color: green;
+    font-size:14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.post-row{
+   margin: auto;
+   width:90%;
+}
+
+
+
+.footer{
+    background-color: rgb(0, 231, 0);
+    
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+    padding-top: 32px;
+}
+
+.footer-col{
+    margin: 20px 0px 20px 20px;
+    font-size:12px;
+}
+
+.footer-col-header{
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.footer-col-form-header{
+    font-weight: 900;
+    margin-top: 20px;
+}
+.col-label{
+    margin: 0;
+    font-size: 12px;
+}
+.footer-form{
+    background-color:gray;
+    margin: 10px;
+}
+.footer-form-btn{
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: green;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.col-input{
+    font-size: 12px;
+    
+}
+
+
+/** Product detail
+
+ 
+*/
+
+.product-detail-section{
+    margin-top: 40px;
+}
+
+.product-detail-title{
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.product-detail-property{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0px 0px 10px 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product-detail-price{
+    font-size: 20px;
+    color: rgb(212, 55, 55);
+    font-weight: 800;
+}
+.product-detail-seen{
+    font-weight: 500;
+}
+
+.product-detail-main-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.product-detail-tab-body{
+    padding: 20px;
+    font-weight: 450;
+    font-size: 16px;
+}
+
+.nav-link{
+    font-weight: 600;
+    color:black;
+}
+
+/* END */
+
+
+/* Contact page */
+
+.contact-section {
+    margin: 30px 0px 30px 0px;
+    padding: 30px 0px 30px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(233, 233, 233);
+}
+
+.contact-title{
+    font-weight: bold;
+    color: green;
+    margin-bottom: 20px;
+}
+
+
+.contact-description-title{
+    color: rgb(16, 224, 44);
+    margin-left: 20px;
+}
+
+.contact-description-p{
+    margin-left: 20px;
+}
+.contact-description{
+    margin-left: 40px;
+}
+/*END*/
