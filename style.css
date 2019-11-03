@@ -12,19 +12,34 @@ Version: 1.0
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:green;
+    background-color:#ffe561;
 }
+
+h1, h2,h3,h4,h5,h6 {
+    color: rgba(33, 33, 33, 0.8);
+    font-weight: bold;
+}
+
+/* #logo-title{
+    font-weight: bold;
+   
+    font-size: 40px;
+
+} */
 
 .nav-item{
     font-weight: 900;
+    flex:1;
+    text-align: center;
 }
 .navbar{
-    background-color: rgb(9, 196, 9);
+    background-color: #f7d947;
+    padding: 0px 40px 0px 40px ;
 }
 
 .navbar-nav{
     width: 80%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 } 
 
 .sticky {
@@ -47,36 +62,45 @@ Version: 1.0
     justify-content: center;
     display: flex;
     font-size: 20px;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     font-weight: 800;
 }
 
 .section{
     margin-top: 80px;
     flex-direction: column;
-    background-color: rgb(233, 233, 233);
+
     display: flex;
     align-items: center;
 }
 
+.section-body{
+    width: 100%;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 28px;
+}
+
 .product-item{
-    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 .product-name{
     font-weight: 800;
-    color: green;
+    color: #212121;
     margin-top: 10px;
 }
 .product-image{
     border-width:1px;
     border-style: solid;
-    border-color: rgb(187, 187, 187);
+    border-color: #ffec8a;
     background-size:cover;
-    height: 240px;
+    height: 200px;
 }
 .product-description{
     font-size: 14px;
@@ -85,27 +109,69 @@ Version: 1.0
 
 .product-price{
     color: red;
+    font-weight: 800;
 }
 
 .product-row{
    margin: auto;
    width:90%;
+   margin-top: 20px;
 }
 
 /* override boostrap */
-
-.page-item{
+.divider{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    height: 2px;
+    background-color: rgba(33,33,33,0.2);
+}
+.pagination{
+    margin-top: 40px;
+}
+.page-numbers{
     margin: 2px;
     font-weight: 600;
-    color: green;
+    color: #212121;
     border-width: 2px;
-    border-color: green;
+    border-color: #ffec8a;
     border-style: solid;
+    padding: 5px 12px;
+    text-decoration: none;
+}
+
+.page-numbers:hover{
+    background-color: #ffe561;
+    text-decoration: none;
 }
 
 .page-link{
-    color: green;
+    color: #212121;
     outline-width: 0;
+}
+
+.form-control{
+    border-width: 0;
+    background-color: #f5e282;
+    border-radius: 10px;
+}
+
+.form-control:focus{
+    background-color:#fae05e ;
+}
+
+.active{
+    background-color: #ffe561;
+    color: rgba(33, 33, 33, 0.8);
+}
+
+.nav-tabs{
+    width: 60%;
+}
+
+.nav-link.active{
+    background-color:  #ffe561 !important; 
+    border-width: 0px;
 }
 /**/
 
@@ -126,8 +192,9 @@ Version: 1.0
 .post-image{
     border-width:1px;
     border-style: solid;
-    border-color: rgb(187, 187, 187);
-    background-size:cover
+    border-color: #ffec8a;
+    background-size:cover;
+    height:180px;
 }
 .post-description{
     margin-top: 10px;
@@ -135,7 +202,7 @@ Version: 1.0
 }
 
 .post-more{
-    color: green;
+    color: #212121;
     font-size:14px;
     font-weight: 600;
     margin-top: 10px;
@@ -149,7 +216,7 @@ Version: 1.0
 
 
 .footer{
-    background-color: rgb(0, 231, 0);
+    background-color:#ffe561;
     
     width: 100%;
     margin: auto;
@@ -172,23 +239,34 @@ Version: 1.0
     margin-top: 20px;
 }
 .col-label{
+    font-weight: 800;
     margin: 0;
     font-size: 12px;
 }
 .footer-form{
-    background-color:gray;
     margin: 10px;
 }
 .footer-form-btn{
     font-size: 14px;
     border-radius: 5px;
-    background-color: green;
+    background-color: #ffe561;
     margin-top: 12px;
     margin-bottom: 20px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #fff;
+    text-align: center;
+    width: 80px;
+    font-weight: bold;
+}
+
+.footer-form-btn:hover{
+    background-color: #fad624;
+    color: #fff;
 }
 .col-input{
-    font-size: 12px;
-    
+    font-size: 12px;   
 }
 
 
@@ -221,6 +299,13 @@ Version: 1.0
     color: rgb(212, 55, 55);
     font-weight: 800;
 }
+
+.product-detail-regular-price{
+     text-decoration: line-through;
+     font-weight: 600;
+     font-size: 16px;
+}
+
 .product-detail-seen{
     font-weight: 500;
 }
@@ -236,6 +321,7 @@ Version: 1.0
     padding: 20px;
     font-weight: 450;
     font-size: 16px;
+    border-top-width: 0px;
 }
 
 .nav-link{
@@ -253,12 +339,12 @@ Version: 1.0
     padding: 30px 0px 30px 10px;
     font-size: 14px;
     font-weight: 500;
-    background-color: rgb(233, 233, 233);
+
 }
 
 .contact-title{
     font-weight: bold;
-    color: green;
+    color: #212121;
     margin-bottom: 20px;
 }
 
@@ -275,3 +361,67 @@ Version: 1.0
     margin-left: 40px;
 }
 /*END*/
+
+
+
+
+/* posts page */
+
+
+
+.posts-item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+.posts-section-body{
+    width: 92%;
+}
+
+.posts-image{
+    border-width:1px;
+    border-style: solid;
+    border-color: #ffec8a;
+    background-size:cover;
+    height:100px;
+}
+
+.posts-name{
+    font-weight: 800;
+}
+
+.posts-description{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 10px; 
+}
+
+.post-detail-section{
+    margin-top: 40px;
+    flex-direction: column;
+
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 40px 40px 40px;
+}
+
+
+/* end */
+
+
+/**single-post */
+
+.post-detail-title{
+    font-weight: bold;
+    color: #212121;
+    margin:auto;
+}
+
+.post-detail-author{
+    text-align: end;
+    width: 90%;
+    margin-top: 20px;
+}
+
+/* end */

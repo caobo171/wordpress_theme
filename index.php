@@ -1,13 +1,5 @@
 <?php get_header(); ?>
 
-<?php
-while(have_posts()){
-    the_post();
-?>
-    <h3><?php the_title(); ?></h3>
-
-<?php
-} 
-?>
+<h1 style="margin-top:60px;"> Không tìm thấy nội dung tìm kiếm </h1>
 
 <?php get_footer(); ?>
