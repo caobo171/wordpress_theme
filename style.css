@@ -102,7 +102,7 @@ p{
 }
 
 .section{
-    margin-top: 80px;
+    margin-top: 32px;
     flex-direction: column;
 
     display: flex;
@@ -160,10 +160,11 @@ p{
 
 }
 .divider{
-    width: 50%;
+    width: 30%;
     margin: 0;
     padding: 0;
     height: 2px;
+    background-color: #9c9746 ;
 }
 .pagination{
     margin-top: 40px;
@@ -477,7 +478,7 @@ p{
     } 
 
     .form-inline{
-        width: 100%;
+        width: 60%;
     }
     #carouselExampleIndicators{
         display: none;
