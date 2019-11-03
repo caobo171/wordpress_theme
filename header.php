@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Pacifico|Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="<?php echo get_template_directory_uri() . '/image/logo.jpg' ?>" />
     <?php wp_head(); ?>
 
 
@@ -15,11 +17,11 @@
     <div id="header">
         <div id="banner">
             <a class="logo">
-                <img src="https://dongduoccongduc.com/upload/photo/untitled1_09362422032018.png" alt="">
+                <img class="img-logo" src="<?php echo get_template_directory_uri() . '/image/logo.jpg' ?>" alt="">
             </a>
 
-            <div>
-                <h1 id="logo-title">Đông Dược Bảo Nguyên</h1>
+            <div id="logo-title">
+                <h1>Đông Dược Bảo Nguyên</h1>
             </div>
         </div>
 

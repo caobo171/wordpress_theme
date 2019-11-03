@@ -62,7 +62,7 @@
                 ?>
 
 
-                <div class="col col-md-3 col-12 product-item">
+                <div class="col-lg-3  col-md-6 col-sm-12 col-12 product-item">
                     <a href="<?php the_permalink(); ?>">
                         <img class="product-image img-fluid" src="<?php echo $imguri; ?>" alt="">
                     </a>

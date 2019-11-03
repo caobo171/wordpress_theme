@@ -7,25 +7,54 @@ Version: 1.0
 */
 
 
+/*  Color palletes : 
+#d6cb00  #211f00 #fffeeb  #9c9746 #fff30a
+
+*/
+
+img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #fffeeb;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+h1, h2,h3,h4,h5,h6 {
+    color: #d6cb00 ;
+}
+
+.nav-link, .nav-item{
+    color: #d6cb00   !important;
+}
+
+p{
+    font-size: 'medium';
+}
+
+
 #banner{
     flex-direction: row;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#ffe561;
+    background-color: #211f00 ;
+    background-image: url('https://www.grainstorebrewery.com/site/wp-content/uploads/grainstore-daniel-lambert-header-background.jpg');
 }
 
-h1, h2,h3,h4,h5,h6 {
-    color: rgba(33, 33, 33, 0.8);
-    font-weight: bold;
+#logo-title{
+    padding-left: 12px;
+    font-family: 'Pacifico', cursive;
 }
 
-/* #logo-title{
-    font-weight: bold;
-   
-    font-size: 40px;
 
-} */
+.img-logo{
+    height: 120px;
+    width: 120px;
+}
 
 .nav-item{
     font-weight: 900;
@@ -33,12 +62,18 @@ h1, h2,h3,h4,h5,h6 {
     text-align: center;
 }
 .navbar{
-    background-color: #f7d947;
     padding: 0px 40px 0px 40px ;
+    background-color: #211f00 ;
+}
+
+.navbar-toggler{
+    background-color: #9c9746;
+    margin: 10px;
 }
 
 .navbar-nav{
     width: 80%;
+   
     /* justify-content: space-between; */
 } 
 
@@ -81,6 +116,8 @@ h1, h2,h3,h4,h5,h6 {
 .section-title{
     font-weight: bold;
     font-size: 28px;
+    margin-bottom: 12px;
+    color: #d6cb00;
 }
 
 .product-item{
@@ -92,15 +129,13 @@ h1, h2,h3,h4,h5,h6 {
 }
 .product-name{
     font-weight: 800;
-    color: #212121;
     margin-top: 10px;
 }
 .product-image{
     border-width:1px;
     border-style: solid;
-    border-color: #ffec8a;
     background-size:cover;
-    height: 200px;
+    width: 100%;
 }
 .product-description{
     font-size: 14px;
@@ -108,7 +143,6 @@ h1, h2,h3,h4,h5,h6 {
 }
 
 .product-price{
-    color: red;
     font-weight: 800;
 }
 
@@ -119,12 +153,15 @@ h1, h2,h3,h4,h5,h6 {
 }
 
 /* override boostrap */
+
+.carousel-control-next-icon{
+
+}
 .divider{
     width: 50%;
     margin: 0;
     padding: 0;
     height: 2px;
-    background-color: rgba(33,33,33,0.2);
 }
 .pagination{
     margin-top: 40px;
@@ -132,37 +169,30 @@ h1, h2,h3,h4,h5,h6 {
 .page-numbers{
     margin: 2px;
     font-weight: 600;
-    color: #212121;
     border-width: 2px;
-    border-color: #ffec8a;
     border-style: solid;
     padding: 5px 12px;
     text-decoration: none;
 }
 
 .page-numbers:hover{
-    background-color: #ffe561;
     text-decoration: none;
 }
 
 .page-link{
-    color: #212121;
     outline-width: 0;
 }
 
 .form-control{
     border-width: 0;
-    background-color: #f5e282;
     border-radius: 10px;
 }
 
 .form-control:focus{
-    background-color:#fae05e ;
 }
 
 .active{
-    background-color: #ffe561;
-    color: rgba(33, 33, 33, 0.8);
+    background-color:  #9c9746;
 }
 
 .nav-tabs{
@@ -170,8 +200,8 @@ h1, h2,h3,h4,h5,h6 {
 }
 
 .nav-link.active{
-    background-color:  #ffe561 !important; 
     border-width: 0px;
+    background-color: #9c9746 !important;
 }
 /**/
 
@@ -189,20 +219,21 @@ h1, h2,h3,h4,h5,h6 {
     font-weight: 800;
     margin-top: 10px;
 }
+
 .post-image{
     border-width:1px;
     border-style: solid;
-    border-color: #ffec8a;
     background-size:cover;
-    height:180px;
+    width: 100%;
 }
+
+
 .post-description{
     margin-top: 10px;
     font-size: 12px;
 }
 
 .post-more{
-    color: #212121;
     font-size:14px;
     font-weight: 600;
     margin-top: 10px;
@@ -216,8 +247,7 @@ h1, h2,h3,h4,h5,h6 {
 
 
 .footer{
-    background-color:#ffe561;
-    
+    background-color: #211f00 ;
     width: 100%;
     margin: auto;
     margin-top: 60px;
@@ -225,7 +255,6 @@ h1, h2,h3,h4,h5,h6 {
 }
 
 .footer-col{
-    margin: 20px 0px 20px 20px;
     font-size:12px;
 }
 
@@ -236,34 +265,38 @@ h1, h2,h3,h4,h5,h6 {
 
 .footer-col-form-header{
     font-weight: 900;
-    margin-top: 20px;
+    padding-bottom: 10px;
 }
 .col-label{
     font-weight: 800;
     margin: 0;
     font-size: 12px;
+    color: #fffeeb
 }
 .footer-form{
-    margin: 10px;
+
 }
 .footer-form-btn{
     font-size: 14px;
     border-radius: 5px;
-    background-color: #ffe561;
     margin-top: 12px;
     margin-bottom: 20px;
     border-width: 1px;
     border-radius: 10px;
     border-style: solid;
-    border-color: #fff;
     text-align: center;
     width: 80px;
     font-weight: bold;
+
+    background-color: #9c9746;
 }
 
 .footer-form-btn:hover{
-    background-color: #fad624;
-    color: #fff;
+    background-color: #fff30a;
+}
+
+.col-description{
+    color: #fffeeb ;
 }
 .col-input{
     font-size: 12px;   
@@ -282,7 +315,6 @@ h1, h2,h3,h4,h5,h6 {
 .product-detail-title{
     font-size: 28px;
     font-weight: bold;
-    color: red;
     margin-bottom: 20px;
 }
 
@@ -296,7 +328,6 @@ h1, h2,h3,h4,h5,h6 {
 
 .product-detail-price{
     font-size: 20px;
-    color: rgb(212, 55, 55);
     font-weight: 800;
 }
 
@@ -326,7 +357,6 @@ h1, h2,h3,h4,h5,h6 {
 
 .nav-link{
     font-weight: 600;
-    color:black;
 }
 
 /* END */
@@ -344,13 +374,11 @@ h1, h2,h3,h4,h5,h6 {
 
 .contact-title{
     font-weight: bold;
-    color: #212121;
     margin-bottom: 20px;
 }
 
 
 .contact-description-title{
-    color: rgb(16, 224, 44);
     margin-left: 20px;
 }
 
@@ -382,9 +410,7 @@ h1, h2,h3,h4,h5,h6 {
 .posts-image{
     border-width:1px;
     border-style: solid;
-    border-color: #ffec8a;
     background-size:cover;
-    height:100px;
 }
 
 .posts-name{
@@ -414,7 +440,6 @@ h1, h2,h3,h4,h5,h6 {
 
 .post-detail-title{
     font-weight: bold;
-    color: #212121;
     margin:auto;
 }
 
@@ -425,3 +450,33 @@ h1, h2,h3,h4,h5,h6 {
 }
 
 /* end */
+
+
+
+@media(max-width: 988px){
+    .navbar-nav{
+        width: 100%;
+       
+        /* justify-content: space-between; */
+    } 
+
+    #carouselExampleIndicators{
+        display: none;
+    }
+}
+
+
+@media(max-width: 720px){
+    .navbar-nav{
+        width: 100%;
+       
+        /* justify-content: space-between; */
+    } 
+
+    .form-inline{
+        width: 100%;
+    }
+    #carouselExampleIndicators{
+        display: none;
+    }
+}

@@ -34,15 +34,22 @@ get_header(); ?>
                 $blogposts->the_post();
                 $imguri = get_the_post_thumbnail_url(get_the_ID()) ? get_the_post_thumbnail_url(get_the_ID()) : 'https://dongduoccongduc.com/upload/news/380x248x1/642496309091.jpg';
                 ?>
-                <div class="col col-md-6 col-12 posts-item">
+                <div class="col col-lg-6 col-12 posts-item">
+                    <div class="row">
 
-                    <img class="posts-image img-fluid" src="<?php echo $imguri; ?>" alt="">
+                        <div class="col-lg-4 col-12">
+                            <img class="posts-image img-fluid" src="<?php echo $imguri; ?>" alt="">
+                        </div>
 
-                    <div class="posts-description">
-                        <span class="posts-name"><?php the_title() ?></span>
-                        <span class="post-description"><?php echo wp_trim_words(get_the_excerpt(), 20); ?>...</span>
-                        <a href="<?php the_permalink(); ?>"><span class="post-more">Xem thêm</span></a>
+                        <div class="posts-description col-md-8 col-12 ">
+                            <span class="posts-name"><?php the_title() ?></span>
+                            <span class="post-description"><?php echo wp_trim_words(get_the_excerpt(), 20); ?>...</span>
+                            <a href="<?php the_permalink(); ?>"><span class="post-more">Xem thêm</span></a>
+                        </div>
                     </div>
+
+
+
 
                 </div>
             <?php

@@ -1,6 +1,6 @@
 <div class="row footer">
 
-    <div class="col footer-col  col-md-3 col-12">
+    <div class="col footer-col  col-md-6  col-lg-3 col-12">
         <h5 class="footer-col-header">ĐÔNG DƯỢC CÔNG ĐỨC</h5>
         <p class="col-description">2880E5 Lương Định Của, P.An Phú, Q.2,TP.HCM</p>
         <p class="col-description">Xưởng sản xuất: Lô R3, Đường số 7, Huyện Cần Giuộc, Tỉnh Long An, Việt Nam</p>
@@ -9,7 +9,7 @@
         <p class="col-description">www.dongduoccongduc.com</p>
         <p class="col-description">www.dongduoccongduc.vn</p>
     </div>
-    <div class="col footer-col  col-md-2 col-12">
+    <div class="col footer-col  col-md-6 col-lg-3 col-12">
         <h5 class="footer-col-header">QUỶ ĐỊNH VÀ CHÍNH SÁCH</h5>
         <p class="col-description">CHÍNH SÁCH VỀ BẢO MẬT THÔNG TIN</p>
         <p class="col-description">CHÍNH SÁCH VÀ HÌNH THỨC THANH TOÁN</p>
@@ -17,15 +17,15 @@
         <p class="col-description">CHÍNH SÁCH VÀ QUY ĐỊNH CHUNG</p>
         <p class="col-description">CHÍNH SÁCH VÀ QUY TRÌNH XỬ LÝ KHIẾU NẠI</p>
     </div>
-    <div class="col footer-col col-md-2 col-12">
+    <div class="col footer-col col-md-6 col-lg-2 col-12">
         <h5 class="footer-col-header">THỐNG KÊ TRUY CẬP</h5>
         <p class="col-description">Đang online:2</p>
         <p class="col-description">Thống kê ngày:154</p>
         <p class="col-description">Thống kê tháng:7476</p>
         <p class="col-description">Lượt truy cập:173824</p>
     </div>
-    <div class="col footer-form col-md-4 col-12">
-        <h5 class="footer-col-form-header">THƯ LIÊN HỆ</h5>
+    <div class="col footer-form col-md-6 col-lg-4 col-12">
+        <h5 class="footer-col-header">THƯ LIÊN HỆ</h5>
         <form>
             <div class="form-group">
                 <label class="col-label">Họ và tên</label>
