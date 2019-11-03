@@ -38,9 +38,9 @@
                     <a class="nav-item nav-link  <?php if (preg_match('/\/contacts\//', get_permalink()) > 0) echo 'active' ?>" href="<?php echo site_url('contacts') ?>">LIÊN HỆ</a>
                 </div>
             </div>
-
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search"  name="s"             
+                value="<?php the_search_query(); ?>">
             </form>
         </nav>
     </div>

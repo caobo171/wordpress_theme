@@ -39,11 +39,11 @@ get_header(); ?>
 
 
                 <div class="col col-md-4 col-12 product-item">
-                    <a href="<?php the_permalink(); ?>">
+                    <a class="product-image-wrapper" href="<?php the_permalink(); ?>">
                         <img class="product-image img-fluid" src="<?php echo  $imguri; ?>" alt="">
                     </a>
 
-                    <span class="product-name"><? the_title() ?></span>
+                    <span class="product-name"><?php the_title() ?></span>
                     <span class="product-description">Mã SP:</span>
                     <div><span class="product-description">Giá:</span>
                         <span class="product-price"><?php echo $_product->get_regular_price(); ?>đ</span></div>

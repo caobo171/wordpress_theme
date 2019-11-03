@@ -132,9 +132,11 @@ p{
     margin-top: 10px;
 }
 .product-image{
-    border-width:1px;
-    border-style: solid;
     background-size:cover;
+    width: 100%;
+}
+
+.product-image-wrapper{
     width: 100%;
 }
 .product-description{
@@ -173,10 +175,15 @@ p{
     border-style: solid;
     padding: 5px 12px;
     text-decoration: none;
+    color: #9c9746;
+    border-color: #9c9746;
 }
 
 .page-numbers:hover{
     text-decoration: none;
+    color: #9c9746;
+    border-color: #9c9746;
+    background-color: #fff30a;
 }
 
 .page-link{
@@ -221,8 +228,6 @@ p{
 }
 
 .post-image{
-    border-width:1px;
-    border-style: solid;
     background-size:cover;
     width: 100%;
 }
@@ -408,8 +413,6 @@ p{
 }
 
 .posts-image{
-    border-width:1px;
-    border-style: solid;
     background-size:cover;
 }
 
